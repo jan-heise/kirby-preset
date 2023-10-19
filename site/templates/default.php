@@ -2,6 +2,6 @@
 
 layout();
 
-?>
-
-<h1>Hello World</h1>
+foreach ($page->blocks()->toBlocks() as $block) {
+    echo $block;
+}

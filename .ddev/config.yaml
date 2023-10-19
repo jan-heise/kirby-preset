@@ -1,4 +1,4 @@
-name: animations
+name: kirby-preset
 type: php
 docroot: ''
 php_version: '8.2'

@@ -1,0 +1,13 @@
+{
+  "name": "anima/plugin",
+  "type": "kirby-plugin",
+  "license": "MIT",
+  "version": "1.0.0",
+  "authors": [
+    {
+      "name": "Jan Heise",
+      "email": "jan@heise.rocks"
+    }
+  ],
+  "require": {}
+}

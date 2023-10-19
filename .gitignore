@@ -41,10 +41,7 @@ node_modules
 # (Custom client plugions)
 # ---------------------------
 site/plugins/*
-!site/plugins/dM-*
-!site/plugins/dM2023-*
-!site/plugins/dm-*
-!site/plugins/dm2023-*
+!site/plugins/anima-*
 
 # -------------SECURITY-------------
 # NEVER publish these files via Git!

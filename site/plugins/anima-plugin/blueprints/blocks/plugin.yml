@@ -1,0 +1,22 @@
+name:
+  en: Plugin
+  de: Plugin
+icon: star
+tabs:
+  content:
+    label:
+      en: Content
+      de: Inhalt
+    fields:
+      text:
+        label:
+          en: Text
+          de: Text
+        type: writer
+        required: true
+  options:
+    label:
+      en: Options
+      de: Options
+    fields:
+      block_id: fields/settings/id

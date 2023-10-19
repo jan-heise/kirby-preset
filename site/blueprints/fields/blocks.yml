@@ -4,3 +4,4 @@ label:
 type: blocks
 fieldsets:
   - text
+  - plugin

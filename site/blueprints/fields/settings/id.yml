@@ -1,0 +1,7 @@
+label:
+  en: Block ID
+  de: Block ID
+type: text
+help:
+  en: Unique ID for html anchors.
+  de: Eindeutige ID für HTML Anker.
