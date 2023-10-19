@@ -1,0 +1,13 @@
+{
+  "preset": "psr12",
+  "exclude": [
+    "accounts",
+    "cache",
+    "plugins/kirby-env",
+    "plugins/kirby-meta-knight",
+    "plugins/kirby-navigation",
+    "plugins/kirby-social-media-links",
+    "plugins/layouts",
+    "sessions"
+  ]
+}

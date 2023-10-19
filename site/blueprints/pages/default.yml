@@ -1,0 +1,32 @@
+title:
+  en: Default
+  de: Standard
+tabs:
+  content:
+    label:
+      en: Content
+      de: Inhalt
+    icon: text
+    columns:
+      main:
+        width: 2/3
+        sections:
+          content:
+            type: fields
+            fields:
+              blocks:
+                extends: fields/blocks
+          subpages:
+            label:
+              en: Subpages
+              de: Unterseiten
+            type: pages
+            info:
+              en: "{{ page.children.count }} Subpages"
+              de: "{{ page.children.count }} Unterseiten"
+            default: default
+            templates:
+              - default
+          files:
+            type: files
+            extends: sections/files

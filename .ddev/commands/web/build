@@ -1,0 +1,12 @@
+#!/bin/bash
+
+npm run build
+
+# Build all custom plguins
+.ddev/commands/web/build-plugins 'anima'
+
+# Run laravel pint for php code formatting
+.ddev/commands/web/pint
+
+# Run prettier (includes tailwind class sorting)
+.ddev/commands/web/prettier

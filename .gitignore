@@ -1,0 +1,82 @@
+# Optional
+# ---------------
+
+/kirby/*
+
+# System files
+# ------------
+
+Icon
+.DS_Store
+.env
+
+# Temporary files
+# ---------------
+
+/media/*
+!/media/.gitkeep
+
+# Lock files
+# ---------------
+
+.lock
+
+# Modules
+# ---------------
+
+vendor
+node_modules
+
+# Editors
+# (sensitive workspace files)
+# ---------------------------
+
+*.sublime-workspace
+*.code-workspace
+/.vscode/*
+!/.vscode/extensions.json
+/.idea
+
+# Plugins
+# (Custom client plugions)
+# ---------------------------
+site/plugins/*
+!site/plugins/dM-*
+!site/plugins/dM2023-*
+!site/plugins/dm-*
+!site/plugins/dm2023-*
+
+# -------------SECURITY-------------
+# NEVER publish these files via Git!
+# -------------SECURITY-------------
+
+# Cache Files
+# ---------------
+
+/site/cache/*
+!/site/cache/.gitkeep
+
+# Accounts
+# ---------------
+
+/site/accounts/*
+!/site/accounts/.gitkeep
+
+# Sessions
+# ---------------
+
+/site/sessions/*
+!/site/sessions/.gitkeep
+
+# License
+# ---------------
+
+/site/config/.license
+
+# Custom
+# ---------------
+
+auth.json
+!src/css/vendor
+/assets
+/content/

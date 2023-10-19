@@ -1,0 +1,21 @@
+title:
+  en: Site
+  de: Seite
+tabs:
+  content:
+    label:
+      en: Content
+      de: Inhalt
+    icon: text
+    sections:
+      pages:
+        label:
+          en: Pages
+          de: Seiten
+        type: pages
+        info:
+          en: "{{ page.children.count }} Subpages"
+          de: "{{ page.children.count }} Unterseiten"
+        default: default
+        files:
+          type: files

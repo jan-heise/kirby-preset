@@ -1,0 +1,44 @@
+##
+# Prettier defaults:
+# https://prettier.io/docs/en/ignore.html#ignoring-files-prettierignore
+#
+
+# Kirby CMS
+content
+kirby
+media
+site/accounts
+site/cache
+site/sessions
+site/config/.license
+
+# Exernal Kirby plugins
+site/plugins/kirby-env
+site/plugins/kirby-meta-knight
+site/plugins/kirby-navigation
+site/plugins/kirby-panel-year
+site/plugins/kirby-social-media-links
+site/plugins/layouts
+site/plugins/**/index.js
+
+# System files
+Icon
+.DS_Store
+
+# Modules
+vendor
+
+# Editors
+*.sublime-workspace
+*.code-workspace
+.vscode
+.idea
+
+# Custom
+# ---------------
+/assets
+.ddev
+.htaccess
+.lock
+auth.json
+composer.lock

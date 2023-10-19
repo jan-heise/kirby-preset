@@ -1,0 +1,14 @@
+#!/bin/bash
+
+for d in site/plugins/$1-*; do
+  if test -f "${d}/package.json"; then
+    npm --prefix $d run build
+    if [ $? -eq 0 ]; then
+        printf "\n"
+        echo -e "\e[92mSuccessfully build $d ✓\e[39m"
+    else
+        printf "\n"
+        echo -e "\e[91mFailed to build $d ⚠\e[39m"
+    fi
+  fi
+done

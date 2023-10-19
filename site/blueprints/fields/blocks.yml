@@ -1,0 +1,6 @@
+label:
+  en: Blocks
+  de: Blöcke
+type: blocks
+fieldsets:
+  - text
