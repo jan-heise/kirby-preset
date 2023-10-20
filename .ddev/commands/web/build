@@ -3,7 +3,7 @@
 npm run build
 
 # Build all custom plguins
-.ddev/commands/web/build-plugins 'anima'
+.ddev/commands/web/build-plugins 'preset'
 
 # Run laravel pint for php code formatting
 .ddev/commands/web/pint

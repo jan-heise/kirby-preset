@@ -41,7 +41,7 @@ node_modules
 # (Custom client plugions)
 # ---------------------------
 site/plugins/*
-!site/plugins/anima-*
+!site/plugins/preset-*
 
 # -------------SECURITY-------------
 # NEVER publish these files via Git!

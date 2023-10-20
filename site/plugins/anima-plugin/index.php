@@ -1,6 +1,6 @@
 <?php
 
-Kirby::plugin('anima/plugin', [
+Kirby::plugin('preset/plugin', [
     'blueprints' => [
         'blocks/plugin' => __DIR__ . '/blueprints/blocks/plugin.yml',
     ],
